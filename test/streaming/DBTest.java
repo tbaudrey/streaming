@@ -343,7 +343,7 @@ public class DBTest {
         System.out.println(nbr);
     }
     
-//    @Test
+    @Test
     public void req12(){
         EntityManager em = Persistence.createEntityManagerFactory("StreamingPU").createEntityManager();
         List<Film> films = new ArrayList<>();
@@ -351,7 +351,7 @@ public class DBTest {
         System.out.println(av);
     }
     
-        @Test
+//        @Test
     public void req13(){
         EntityManager em = Persistence.createEntityManagerFactory("StreamingPU").createEntityManager();
         List<Object[]> rf = em.createQuery("SELECT r, COUNT(f) FROM Realisateur r JOIN r.films f GROUP BY r").getResultList();        
