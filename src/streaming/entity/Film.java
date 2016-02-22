@@ -23,6 +23,7 @@ import org.eclipse.persistence.annotations.CascadeOnDelete;
 /**
  *
  * @author admin
+ * Entité gérant les films
  */
 @Entity
 public class Film implements Serializable {

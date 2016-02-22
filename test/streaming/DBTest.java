@@ -343,6 +343,7 @@ public class DBTest {
         System.out.println(nbr);
     }
     
+    
     @Test
     public void req12(){
         EntityManager em = Persistence.createEntityManagerFactory("StreamingPU").createEntityManager();
